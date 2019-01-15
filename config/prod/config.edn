@@ -1,0 +1,9 @@
+{:runtime {:name "prod"
+           :db {:dbtype "mysql"
+                :host "prod_host"
+                :port "prod_port"
+                :user "prod_user"
+                :password "prod_password"
+                :dbname "prod_dbname"}
+           :redis {:host "prod_host"
+                   :port "prod_port"}}}
